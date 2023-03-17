@@ -1,5 +1,5 @@
 # WhatsApp-API-PHP-SDK
-Lightweight PHP library for WhatsApp API to send the whatsappp messages in PHP provided by online-live-support.com
+Lightweight PHP library for WhatsApp API to send the whatsappp messages in PHP provided by [online-live-support.com](online-live-support.com)
 
 online-live-support.com WhatsApp API PHP SDK
 
@@ -25,4 +25,6 @@ $response = curl_exec($curl);
 curl_close($curl);
 echo $response;
 ```
+[Start Free Trial Now
+](https://payments.pabbly.com/subscribe/63d0ffb8d1695c731abb4d3a/1-whatsapp-v2-instance)
 **NOTE**: you need replace id (session id) which you have recieved it via Email and WhatsApp during subscription started with Online Live Support. If you have lost it, please email us at info@online-live-support.com
