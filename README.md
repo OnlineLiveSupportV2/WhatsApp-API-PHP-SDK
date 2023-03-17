@@ -5,7 +5,7 @@ online-live-support.com WhatsApp API PHP SDK
 
 #Example usage
 
-__<?php
+```<?php
 $curl = curl_init();
 curl_setopt_array($curl, array(
   CURLOPT_URL => 'https://v2.onlinelivesupport.com/chats/sendMessageText?id={{id}}',
@@ -23,6 +23,6 @@ curl_setopt_array($curl, array(
 ));
 $response = curl_exec($curl);
 curl_close($curl);
-echo $response;__
-
+echo $response;
+```
 **NOTE**: you need replace id (session id) which you have recieved it via Email and WhatsApp during subscription started with Online Live Support. If you have lost it, please email us at info@online-live-support.com
